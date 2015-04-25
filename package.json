@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "char-to-baudot": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "name": "string-to-baudot-code",
+  "description": "Convert a string of text into baudot code.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samccone/string-to-baudot-code.git"
+  },
+  "keywords": [
+    "string",
+    "code",
+    "convert"
+  ],
+  "author": "Sam Saccone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samccone/string-to-baudot-code/issues"
+  },
+  "homepage": "https://github.com/samccone/string-to-baudot-code"
+}
