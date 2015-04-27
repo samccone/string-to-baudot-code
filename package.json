@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "char-to-baudot": "^0.1.0"
+    "char-to-baudot": "^0.1.1"
   },
   "devDependencies": {
     "mocha": "^2.2.4"
