@@ -1,5 +1,5 @@
 var charToBaudot = require('char-to-baudot');
-var numberRangeRegex = new RegExp(/[0-9]|\!|\#|\&|\'|\(|\)|\"|\/|\:|\;|\?|\,|\./);
+var numberRangeRegex = new RegExp(/[0-9]|\-|\!|\#|\&|\'|\(|\)|\"|\/|\:|\;|\?|\,|\./);
 
 function getCharType(char) {
   return numberRangeRegex.test(char) ? 'figure' : 'letter';
