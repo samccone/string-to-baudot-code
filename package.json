@@ -7,7 +7,7 @@
   },
   "name": "string-to-baudot-code",
   "description": "Convert a string of text into baudot code.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "directories": {
     "test": "test"
